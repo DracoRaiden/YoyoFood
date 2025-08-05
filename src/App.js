@@ -1,7 +1,7 @@
 import "./App.css";
 import Nav from "./Componenets/Nav";
 import Hero from "./Componenets/Hero";
-import Working from "./Componenets/Working";
+import FoodDelivery from "./Componenets/FoodDelivery";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Hero />
       </div>
       <div className="main">
-        <Working />
+        <FoodDelivery />
       </div>
     </div>
   );
