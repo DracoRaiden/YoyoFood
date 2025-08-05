@@ -1,0 +1,43 @@
+* {
+    font-family: "Lato", "Arial", sans-serif;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 100;
+    margin-left: 200px;
+    font-size: 3.2rem;
+}
+
+.hero {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btns {
+    margin: 20px 0px 0px 200px;
+    display: flex;
+    gap: 15px;
+}
+
+.btns button {
+    height: 45px;
+    border-radius: 200px;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.btn-1 {
+    background-color: #e67e22;
+    color: white;
+}
+
+.btn-2 {
+    background-color: transparent;
+    color: #e67e22;
+    border: 1px solid #e67e22;
+    ;
+}
