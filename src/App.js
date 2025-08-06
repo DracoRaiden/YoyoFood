@@ -11,7 +11,9 @@ function App() {
         <Hero />
       </div>
       <div className="main">
-        <FoodDelivery />
+        <div id="FoodDelivery">
+          <FoodDelivery />
+        </div>
       </div>
     </div>
   );
