@@ -11,10 +11,10 @@ import img8 from "../img/8.jpg";
 export default function FoodDelivery() {
   return (
     <div>
-      <div className="working">
+      <div className="FoodDelivery">
         <h1>Get Food Fast - Not Fast Food.</h1>
         <div className="small-line"></div>
-        <p className="working-intro">
+        <p className="FoodDelivery-intro">
           Hello, we're YoYOFood, your new premium food delivery service. We know
           you're always busy. No time for cooking. So let us take care of that,
           we're really good at it, we promise!

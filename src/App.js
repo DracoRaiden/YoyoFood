@@ -2,7 +2,7 @@ import "./App.css";
 import Nav from "./Componenets/Nav";
 import Hero from "./Componenets/Hero";
 import FoodDelivery from "./Componenets/FoodDelivery";
-
+import Working from "./Componenets/Working";
 function App() {
   return (
     <div className="App">
@@ -13,6 +13,9 @@ function App() {
       <div className="main">
         <div id="FoodDelivery">
           <FoodDelivery />
+        </div>
+        <div id="Working">
+          <Working />
         </div>
       </div>
     </div>

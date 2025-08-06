@@ -1,4 +1,4 @@
-.working {
+.FoodDelivery {
     background-color: white;
     height: 100vh;
     font-family: "Lato", "Arial", sans-serif;
@@ -9,7 +9,7 @@
     gap: 30px;
 }
 
-.working h1 {
+.FoodDelivery h1 {
     margin-top: 80px;
     font-size: 40px;
     font-weight: 300;
@@ -21,7 +21,7 @@
     width: 100px;
 }
 
-.working-intro {
+.FoodDelivery-intro {
     width: 800px;
     font-size: 20px;
     font-weight: 300;

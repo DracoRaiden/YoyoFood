@@ -14,3 +14,7 @@
   height: 100vh;
   background-attachment: fixed;
 }
+
+* {
+  line-height: 1.15;
+}

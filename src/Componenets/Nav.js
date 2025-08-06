@@ -20,8 +20,9 @@ export default function Nav() {
           <Route path="/SignUpPage" element={<SignUpPage />}></Route>
         </Routes>
         <a href="#FoodDelivery">Food Delivery</a>
+        <a href="#Working">How it Works</a>
         {/* <Link to="/FoodDelivery">Food Delivery</Link> */}
-        <Link to="/Working">How it Works</Link>
+        {/* <Link to="/Working">How it Works</Link> */}
         <Link to="/CityList">Our Cities</Link>
         <Link to="/SignUpPage">Sign Up</Link>
       </div>
