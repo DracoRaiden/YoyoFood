@@ -5,7 +5,7 @@ import FoodDelivery from "./Componenets/FoodDelivery";
 import Working from "./Componenets/Working";
 import CityList from "./Componenets/CityList";
 import Customers from "./Componenets/Customers";
-
+import Subscriptions from "./Componenets/Subscriptions";
 function App() {
   return (
     <div className="App">
@@ -25,6 +25,9 @@ function App() {
         </div>
         <div className="Customers">
           <Customers />
+        </div>
+        <div className="Subscriptions">
+          <Subscriptions />
         </div>
       </div>
     </div>
