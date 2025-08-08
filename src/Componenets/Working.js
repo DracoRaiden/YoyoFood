@@ -35,10 +35,18 @@ export default function Working() {
             </p>
           </div>
           <div className="link-logos">
-            <a href="https://www.apple.com/app-store/" target="_blank">
+            <a
+              href="https://www.apple.com/app-store/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img class="btn-app" src={playStore} alt="Apple" height={58} />
             </a>
-            <a href="https://play.google.com/store/games?hl=en" target="_blank">
+            <a
+              href="https://play.google.com/store/games?hl=en"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img class="btn-app" src={googlePlay} alt="GoglePLay" />
             </a>
           </div>

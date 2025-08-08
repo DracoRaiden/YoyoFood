@@ -6,10 +6,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
 }
 
-.FoodDelivery h1 {
+.top-heading {
     margin-top: 80px;
     font-size: 40px;
     font-weight: 300;
@@ -19,6 +18,7 @@
 .small-line {
     border-top: 3.5px solid #cf6d17;
     width: 100px;
+    margin-bottom: 30px;
 }
 
 .FoodDelivery-intro {

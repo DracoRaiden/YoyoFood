@@ -1,0 +1,42 @@
+.Customers {
+    color: white;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 80px;
+}
+
+.reviews>div {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 145%;
+    font-style: italic;
+    font-weight: 300;
+    padding: 7px;
+}
+
+.reviews>div:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+}
+
+.reviews img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.review-by {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 18px;
+}

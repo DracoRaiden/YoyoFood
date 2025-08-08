@@ -12,8 +12,10 @@ export default function FoodDelivery() {
   return (
     <div>
       <div className="FoodDelivery">
-        <h1>Get Food Fast - Not Fast Food.</h1>
-        <div className="small-line"></div>
+        <div className="heading">
+          <h1 className="top-heading">Get Food Fast - Not Fast Food.</h1>
+          <div className="small-line"></div>
+        </div>
         <p className="FoodDelivery-intro">
           Hello, we're YoYOFood, your new premium food delivery service. We know
           you're always busy. No time for cooking. So let us take care of that,

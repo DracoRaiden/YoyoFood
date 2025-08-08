@@ -15,6 +15,12 @@
   background-attachment: fixed;
 }
 
-* {
-  line-height: 1.15;
+.Customers {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)),
+    url("./img/back-customers.jpg");
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+  background-attachment: fixed;
 }
