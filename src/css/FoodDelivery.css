@@ -82,3 +82,36 @@
     transform: scale(1.0);
     opacity: 1;
 }
+
+@media(width<768px) {
+    .content {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .FoodDelivery {
+        height: 220vh;
+        max-width: 100%;
+    }
+
+    .FoodDelivery-intro {
+        width: 90%;
+        text-align: center;
+    }
+
+    .content i {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .b {
+        width: 85%;
+        align-self: center;
+        margin: 0px;
+        height: auto;
+    }
+
+    .box-img {
+        width: 50%;
+    }
+}

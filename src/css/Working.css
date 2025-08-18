@@ -88,11 +88,12 @@
         height: 30px;
         width: 30px;
         font-size: 80%;
+        margin-bottom: 20px;
     }
 
     .content-rimage {
         width: 90%;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .link-logos img {
