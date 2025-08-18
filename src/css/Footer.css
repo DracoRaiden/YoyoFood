@@ -59,3 +59,21 @@
     margin-top: 10px;
     align-self: center;
 }
+
+@media (width < 768px) {
+    .pages-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 15px;
+    }
+
+    .details-text {
+        font-size: 14px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+}

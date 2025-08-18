@@ -24,3 +24,7 @@
   /* height: 100vh; */
   background-attachment: fixed;
 }
+
+@media (width < 768px) {
+  .header {}
+}

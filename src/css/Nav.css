@@ -27,3 +27,11 @@
 .list-items a:hover {
     border-bottom: 3px solid #e67e22;
 }
+
+@media (width < 768px) {
+    .navbar {}
+
+    .list-items {
+        display: none;
+    }
+}
