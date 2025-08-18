@@ -7,6 +7,7 @@ import CityList from "./Componenets/CityList";
 import Customers from "./Componenets/Customers";
 import Subscriptions from "./Componenets/Subscriptions";
 import SignUpPage from "./Componenets/SignUpPage";
+import Footer from "./Componenets/Footer";
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
         </div>
         <div className="SignUpPage">
           <SignUpPage />
+        </div>
+        <div className="Footer">
+          <Footer />
         </div>
       </div>
     </div>
