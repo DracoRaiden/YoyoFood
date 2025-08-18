@@ -4,7 +4,7 @@ export default function SignUpPage() {
   return (
     <div className="SignUpPage">
       <div className="heading">
-        <h1 className="top-heading">Start eating healthy today</h1>
+        <h1 className="top-heading">We're happy to hear from you</h1>
         <div className="small-line"></div>
       </div>
       <div className="SignUp-inputs">

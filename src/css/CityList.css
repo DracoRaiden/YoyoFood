@@ -39,3 +39,10 @@
     color: #cf6d17;
     align-self: center;
 }
+
+@media(width<768px) {
+    .cities {
+        flex-direction: column;
+        align-items: center;
+    }
+}

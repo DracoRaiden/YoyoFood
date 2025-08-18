@@ -32,7 +32,7 @@ function App() {
         <div className="Subscriptions">
           <Subscriptions />
         </div>
-        <div className="SignUpPage">
+        <div className="SignUp">
           <SignUpPage />
         </div>
         <div className="Footer">

@@ -6,8 +6,8 @@
     width: 100%;
     font-family: "Lato", "Arial", sans-serif;
     color: #555555;
-    background-color: 
-    rgb(211, 211, 211);
+    background-color:
+        rgb(211, 211, 211);
     padding-bottom: 80px;
 }
 
@@ -67,4 +67,35 @@
 .link-logos {
     display: flex;
     gap: 10px;
+}
+
+@media(width< 768px) {
+    .phone {
+        width: 90%;
+    }
+
+    .phone-image {
+        padding: 0px;
+    }
+
+    .working-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .work-steps {
+        height: 30px;
+        width: 30px;
+        font-size: 80%;
+    }
+
+    .content-rimage {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .link-logos img {
+        height: 50px;
+    }
 }

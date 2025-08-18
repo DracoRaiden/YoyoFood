@@ -14,21 +14,21 @@ export default function Working() {
           <img src={Iphone} alt="Iphone APP" className="phone" />
         </div>
         <div className="content-rimage">
-          <div>
+          <div className="steps">
             <div className="work-steps">1</div>
             <p>
               Choose the subscription plan that best fits your needs and sign up
               today.
             </p>
           </div>
-          <div>
+          <div className="steps">
             <div className="work-steps">2</div>
             <p>
               Order your delicious meal using our mobile app or website. Or you
               can even call us!
             </p>
           </div>
-          <div>
+          <div className="steps">
             <div className="work-steps">3</div>
             <p>
               Enjoy your meal after less than 20 minutes. See you the next time!

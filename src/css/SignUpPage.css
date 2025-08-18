@@ -12,6 +12,7 @@ input {
     flex-direction: column;
     align-items: center;
     padding-bottom: 80px;
+    height: 100vh;
 }
 
 .SignUp-inputs {
@@ -53,4 +54,25 @@ textarea {
 .checkbox-width input {
     width: auto;
     margin-right: 10px;
+}
+
+
+@media (width < 768px) {
+
+    input,
+    .checkbox-width,
+    textarea,
+    select {
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .SignUp-inputs {
+        width: 90%;
+
+    }
+
+    .SignUpPage {
+        font-size: 16px;
+    }
 }

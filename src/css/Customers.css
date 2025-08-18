@@ -40,3 +40,18 @@
     margin-top: 25px;
     font-size: 18px;
 }
+
+@media (width<768px) {
+    .reviews {
+        flex-direction: column;
+        padding: 0px;
+        gap: 60px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 60px;
+    }
+
+    .reviews>div {
+        width: 90%;
+    }
+}
