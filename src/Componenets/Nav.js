@@ -1,8 +1,8 @@
-import { Route, Routes, Link } from "react-router-dom";
+// import { Route, Routes, Link } from "react-router-dom";
 // import FoodDelivery from "./FoodDelivery";
-import Working from "./Working";
-import CityList from "./CityList";
-import SignUpPage from "./SignUpPage";
+// import Working from "./Working";
+// import CityList from "./CityList";
+// import SignUpPage from "./SignUpPage";
 import "../css/Nav.css";
 
 export default function Nav() {
@@ -13,18 +13,21 @@ export default function Nav() {
         alt="YoyoFood logo"
       />
       <div className="list-items">
-        <Routes>
-          {/* <Route path="/FoodDelivery" element={<FoodDelivery />}></Route> */}
+        <a href="#FoodDelivery">Food Delivery</a>
+        <a href="#Working">How it Works</a>
+        <a href="#CityList">Our Cities</a>
+        <a href="#SignUpPage">Sign Up</a>
+
+        {/* <Routes>
+          <Route path="/FoodDelivery" element={<FoodDelivery />}></Route>
           <Route path="/Working" element={<Working />}></Route>
           <Route path="/CityList" element={<CityList />}></Route>
           <Route path="/SignUpPage" element={<SignUpPage />}></Route>
-        </Routes>
-        <a href="#FoodDelivery">Food Delivery</a>
-        <a href="#Working">How it Works</a>
+        </Routes> */}
         {/* <Link to="/FoodDelivery">Food Delivery</Link> */}
         {/* <Link to="/Working">How it Works</Link> */}
-        <Link to="/CityList">Our Cities</Link>
-        <Link to="/SignUpPage">Sign Up</Link>
+        {/* <Link to="/CityList">Our Cities</Link> */}
+        {/* <Link to="/SignUpPage">Sign Up</Link> */}
       </div>
     </div>
   );

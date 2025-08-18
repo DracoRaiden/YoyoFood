@@ -6,6 +6,8 @@ import Working from "./Componenets/Working";
 import CityList from "./Componenets/CityList";
 import Customers from "./Componenets/Customers";
 import Subscriptions from "./Componenets/Subscriptions";
+import SignUpPage from "./Componenets/SignUpPage";
+
 function App() {
   return (
     <div className="App">
@@ -28,6 +30,9 @@ function App() {
         </div>
         <div className="Subscriptions">
           <Subscriptions />
+        </div>
+        <div className="SignUpPage">
+          <SignUpPage />
         </div>
       </div>
     </div>

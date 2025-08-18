@@ -1,0 +1,56 @@
+input {
+    border: 1px solid #cccccc;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 300px;
+}
+
+.SignUpPage {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.SignUp-inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.SignUp-inputs>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+select {
+    border: 1px solid #cccccc;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 300px;
+}
+
+textarea {
+    border: 1px solid #cccccc;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 300px;
+}
+
+.input-submit {
+    align-self: center;
+}
+
+.checkbox-width {
+    width: 300px;
+}
+
+.checkbox-width input {
+    width: auto;
+    margin-right: 10px;
+}
